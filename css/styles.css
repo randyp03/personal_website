@@ -1,0 +1,49 @@
+:root {
+    --main-color: #fff;
+    --sub-color: #fff;
+    --text-color: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+/* Nav bar styling */
+nav {
+    position: fixed;
+    top: 0;
+    height: 10vh;
+    width: 100%;
+    padding: 0 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.right a {
+    margin: 0 0.5rem
+}
+
+nav a {
+    color: black;
+}
+
+nav a:hover {
+    color: red;
+}
+
+#about {
+    padding-top: 10vh;
+}
